@@ -1001,7 +1001,7 @@
  */
 #if DISABLED(CLASSIC_JERK)
 // TODO max: rubienr's value is 0.15, using upstream default, do [this](https://www.youtube.com/watch?v=Mnvj6xCzikM)
-  #define JUNCTION_DEVIATION_MM 0.013 // (mm) Distance from real junction edge
+  #define JUNCTION_DEVIATION_MM 0.15 // (mm) Distance from real junction edge
   #define JD_HANDLE_SMALL_SEGMENTS    // Use curvature estimation instead of just the junction angle
                                       // for small segments (< 1mm) with large junction angles (> 135°).
 #endif
